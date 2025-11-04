@@ -31,17 +31,21 @@ body {
     background-color:#faf7f2 ;
     display:flex;
     justify-content:space-between;
-    padding: 8px 10%;
+    padding: 10px 10%;
     color:#216869;
     font-weight:bolder;
 }
-nav{
+.name{
+    font-weight: bolder;
+}
+.nav{
     padding-left: 10%;
 }
 .site-header a{
     color:#216869;
     text-decoration: none;
     padding: 8px;
+    font-weight: bold;
 }
 a:hover{
     text-decoration: underline;
@@ -81,7 +85,7 @@ a:focus{
 .hero p{
     font-size:15px ;
 }
-button{
+.button{
     margin-top: 10px;
     background-color:#256D65;
     color:white;
@@ -100,11 +104,11 @@ button{
     border-radius: 10px;
     font-size: 14px;
 }
-h1{
+.text{
     font-size: 45px;
     margin:5px;
 }
-#about,#find-us,#hours{
+.about,.find-us,.hours{
     display:flex;
     justify-content:center;
     align-items: stretch;
@@ -189,22 +193,22 @@ h2{
     color:#777;
  
 }
-#tel{
+.tel{
     font-weight: bold;
     text-decoration: none;
     color:black;
 }
-#tel:hover{
+.tel:hover{
     text-decoration: underline;
 }
-#email{
+.email{
     text-decoration: none;
     color:green;
 }
-#email:hover{
+.email:hover{
         text-decoration: underline;
 }
-#email:active{
+.email:active{
     color:red;
 }
 
@@ -240,7 +244,7 @@ table th:last-child {
     color:#777;
     font-size: 14px;
 }
-#menu h2{
+.menu h2{
     margin:0px 10%;
     padding-top: 20px;
     font-weight: bolder;
@@ -273,13 +277,13 @@ table th:last-child {
     h1{
         font-size: 36px;
     }
-   #about, #find-us, #hours{
+   .about, .find-us, .hours{
     padding:40px 0px;
    }
    .menu-cards{
     padding:20px 0px 5px 0px;
    }
-   #menu h2 {
+   .menu h2 {
     margin: 0px 3%;
 }
 .card span {
