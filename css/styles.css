@@ -262,7 +262,13 @@ table th:last-child {
     .site-header{
         justify-content: center;
         padding:8px 0px;
-        font-size: 14px ;
+        font-size: 16px ;
+    }
+    .text{
+        font-size: 36px;
+    }
+    .ftext{
+        font-size: 12px;
     }
 
 }
@@ -295,4 +301,8 @@ table th:last-child {
 .note {
     margin: 0px 3%;
 
+}
+.ftext{
+        font-size: 12px;
+    }
 }
