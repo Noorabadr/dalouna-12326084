@@ -268,7 +268,7 @@ table th:last-child {
         font-size: 36px;
     }
     .ftext{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 @media (max-width:480px){
@@ -302,6 +302,6 @@ table th:last-child {
 
 }
 .ftext{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
