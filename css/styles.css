@@ -264,7 +264,9 @@ table th:last-child {
         padding:8px 0px;
         font-size: 14px ;
     }
-
+     .text{
+        font-size: 36px;
+    }
 }
 @media (max-width:480px){
     .site-header{
